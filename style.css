@@ -1,0 +1,59 @@
+.container{
+    width: 60%;
+    margin:0 auto;
+    box-shadow: 3px 3px 15px grey;
+    padding: 1rem;
+}
+.form-grup{
+    border-bottom: 1px solid darkgray;
+    padding:1rem 0.5rem 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.form-grup input{
+    flex: 1;
+    margin-right: 1rem;
+    padding: 0.3rem;
+    outline: none;
+}
+.form-grup button{
+    padding: 0.3rem;
+}
+.list-container{
+    min-height: 50vh;
+
+}
+.list-container >input{
+    width: 50%;
+    margin-right: 1rem;
+    padding: 0.3rem;
+    outline: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.3rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+li span{
+    flex: 1;
+}
+li i{
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+li>i:hover{
+    opacity: 1;
+}
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: gray;}
